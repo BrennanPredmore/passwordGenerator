@@ -1,11 +1,11 @@
 // Assignment Code
 var generateBtn = document.querySelector("#generate");
-var upperCaseCharactersArray = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('')
-var lowerCaseCharactersArray = 'abcdefghijklmnopqrstuvwxyz'.split('')
-var numbersArray = '0123456789'.split('')
+var upperCaseCharactersArray = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('');
+var lowerCaseCharactersArray = 'abcdefghijklmnopqrstuvwxyz'.split('');
+var numbersArray = '0123456789'.split('');
 var specialCharactersArray = '!@#$%^&*()_-+=][{}><`~'.split('');
-var allCharacters = []
-var passwordLength = 0
+var allCharacters = [];
+var passwordLength = 0;
 var specialCharacters = false;
 var lowerCase = false;
 

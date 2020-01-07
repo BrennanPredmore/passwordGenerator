@@ -23,7 +23,7 @@ Pull requests are welcome. For major changes, please open an issue first to disc
 Please make sure to update tests as appropriate.
 
 ## Link
-https://github.com/BrennanPredmore/passwordGenerator
+https://brennanpredmore.github.io/passwordGenerator/
 
 ## License
 No License required. These are public pages. 
