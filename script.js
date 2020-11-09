@@ -9,7 +9,6 @@ var passwordLength = 0;
 var specialCharacters = false;
 var lowerCase = false;
 
-
 // VALIDATE PASSWORD LENGTH
 function promptPassword() {
   var passwordPrompt = prompt(
@@ -42,7 +41,6 @@ function promptSpecialCharacters() {
   checkSpecialCharacters(specialCharactersPref);
 }
 
-
 // LOWER CASE FUNCTION
 function promptLowerCase() {
   var lowerCasePref = confirm(
@@ -55,14 +53,13 @@ function promptLowerCase() {
     }
   }
 
-  promptUpperCase()
+  promptUpperCase();
 
   checkLowerCasePref(lowerCasePref);
   var randomPasswordValue = generateRandomPassword(passwordLength);
   var passwordArea = document.getElementById('password');
   passwordArea.innerHTML = randomPasswordValue;
 }
-
 
 // UPPER CASE FUNCTION
 function promptUpperCase() {
@@ -76,14 +73,13 @@ function promptUpperCase() {
     }
   }
 
-  promptNumber()
-  
+  promptNumber();
+
   checkUpperCasePref(upperCasePref);
   var randomPasswordValue = generateRandomPassword(passwordLength);
   var passwordArea = document.getElementById('password');
   passwordArea.innerHTML = randomPasswordValue;
 }
-
 
 // NUMBER FUNCTION
 function promptNumber() {
@@ -101,9 +97,6 @@ function promptNumber() {
   var passwordArea = document.getElementById('password');
   passwordArea.innerHTML = randomPasswordValue;
 }
-
-
-
 
 function generateRandomPassword(passwordLength) {
   var result = '';
